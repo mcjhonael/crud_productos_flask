@@ -53,6 +53,7 @@ def gestion_producto(id):
                 "content":data
             },201
         elif request.method=="DELETE":
+            del productos[id]
             return {
                 "message":"Eliminado",
                 "content":None
