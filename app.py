@@ -68,3 +68,9 @@ def gestion_producto(id):
 
 if __name__=='__main__':
     app.run(debug=True,port=5000,host='127.0.0.1',load_dotenv=True)
+
+    #para poder tener nuevamente el entorno virtual e instalar todo
+    # 1 crear el entorno virtual
+    # 2 entrar al entorno virtaul
+    # 3 instalar todo los requirements
+    # 4 pip install -r requirements
