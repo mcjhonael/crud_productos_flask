@@ -10,6 +10,7 @@ productos=[
     {"nombre":"porotos","precio":1.50},
     {"nombre":"cebolla","precio":1.60},
     {"nombre":"tomate","precio":1.70},
+    {"nombre":"mate","precio":3.70},
 ]
 
 @app.route("/")
