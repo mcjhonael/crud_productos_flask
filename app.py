@@ -1,6 +1,8 @@
 from flask import Flask,request
+from flask_cors import CORS
 
 app=Flask(__name__)
+CORS(app=app)
 
 #? SUPONGAMOS QUE TENEMOS UNA BASE DE DATOS QUE NOS ENVIA ESTA INFORMACION
 productos=[

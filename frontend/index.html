@@ -4,22 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>crud_productos</title>
 </head>
 <body>
     <h1>App de un crud de productos</h1>
-    <button type="button" id="mostrarProd">Mostrar Productos</button>
+    <button type="button" id="btnProd">Mostrar Productos</button>
+    <button type="button" id="btnPut">Actualizar Producto</button>
+    <button type="button" id="btnGet">Mostrar 1 Producto</button>
+    <button type="button" id="btnEliminar">Eliminar 1 Producto</button>
     <div id="lista"></div>
-    <form>
+    <form id="btnEnviar">
         <p>
             <label for="inputNombre">Nombre</label>
-            <input type="text" name="" id="inputNombre">
+            <input type="text" name="nombre" id="inputNombre">
         </p>
         <p>
             <label for="inputPrecio">Precio</label>
-            <input type="text" name="" id="inputPrecio">
+            <input type="text" name="precio" id="inputPrecio">
         </p>
-        <button id="btnEnviar">Enviar Producto</button>
+        <button>Enviar Producto</button>
     </form>
+    <script src="./js/index.js" type="module"></script>
 </body>
 </html>
